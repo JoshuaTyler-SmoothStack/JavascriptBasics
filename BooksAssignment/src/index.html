@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, height=device-height, viewport-fit=cover, initial-scale=1" />
+    <link rel="icon" href="../public/favicon.ico"/>
+    <title>Pagination Example</title>
+     <!-- STYLES -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="KitStyles.css">
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!-- ROOT -->
+    <div id="root">
+      <div id="frame" class="d-flex flex-column justify-content-center align-items-center">
+        <h1>Pagination Example</h1>
+        <div id="content" class="gradient-lightgrey border-shadow border-radius-xsm d-flex flex-row flex-wrap justify-content-center align-items-center"></div>
+        <div id="pages" class="gradient-blue border-shadow border-shadow-hover border-radius-xsm mt-2 d-flex flex-row justify-content-around align-items-center">
+          <img src="../public/icons/CaretLeftFill.svg" class="icon-light pages-button ml-2 mr-auto" onclick="handlePageChange(-1, true)">
+          <div id="pagescontainer" class="d-flex flex-row justify-content-center align-items-center"></div>
+          <img src="../public/icons/CaretRightFill.svg" class="icon-light pages-button mr-2 ml-auto" onclick="handlePageChange(1, true)">
+        </div>
+      </div>
+    </div>
+    <!-- SCRIPTS -->
+    <script src="main.js"/>
+  </body>
+</html>

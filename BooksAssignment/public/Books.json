@@ -1,0 +1,80 @@
+{
+  "1": {
+    "author": "Jessica Kirk",
+    "coverURL": "https://images-na.ssl-images-amazon.com/images/I/51smixefhdL._AC_SX368_.jpg",
+    "print": "Paperback",
+    "title": "Gluten Free Cookbook for Beginners"
+  },
+  "2": {
+    "author": "Alan Rosenthal",
+    "coverURL": "https://images-na.ssl-images-amazon.com/images/I/51utAhrmNIL._AC_SX368_.jpg",
+    "print": "Hardcover",
+    "title": "Foolproof One-Pot: 60 Simple and Satisfying Recipes"
+  },
+  "3": {
+    "author": "Eric Matthes",
+    "coverURL": "https://m.media-amazon.com/images/I/81vmJCNCm6L._AC_UL480_FMwebp_QL65_.jpg",
+    "print": "Paperback",
+    "title": "Python Crash Course"
+  },
+  "4": {
+    "author": "Titus Winters, Tom Manshreck, et al.",
+    "coverURL": "https://m.media-amazon.com/images/I/81wdCX5m88L._AC_UL480_FMwebp_QL65_.jpg",
+    "print": "Paperback",
+    "title": "Software Engineering at Google"
+  },
+  "5": {
+    "author": "Brian W. Kernighan and Dennis M. Ritchie",
+    "coverURL": "https://m.media-amazon.com/images/I/411ejyE8obL._AC_UL480_FMwebp_QL65_.jpg",
+    "print": "Paperback",
+    "title": "C Programming Language, 2nd Edition"
+  },
+  "6": {
+    "author": "Chris Hanson and Gerald Jay Sussman",
+    "coverURL": "https://m.media-amazon.com/images/I/71WeE4vY-LL._AC_UL480_FMwebp_QL65_.jpg",
+    "print": "Hardcover",
+    "title": "Software Design for Flexibility"
+  },
+  "7": {
+    "author": "Cory Althoff",
+    "coverURL": "https://m.media-amazon.com/images/I/71Hb1JYfJhL._AC_UL480_FMwebp_QL65_.jpg",
+    "print": "Hardcover",
+    "title": "The Self-Taught Programmer"
+  },
+  "8": {
+    "author": "Alan Rosenthal",
+    "coverURL": "https://images-na.ssl-images-amazon.com/images/I/51utAhrmNIL._AC_SX368_.jpg",
+    "print": "Hardcover",
+    "title": "Foolproof One-Pot: 60 Simple and Satisfying Recipes"
+  },
+  "9": {
+    "author": "Steve Klabnik and Carol Nichols",
+    "coverURL": "https://m.media-amazon.com/images/I/81GUg1UBodL._AC_UL480_FMwebp_QL65_.jpg",
+    "print": "Paperback",
+    "title": "The Rust Programming Language"
+  },
+  "10": {
+    "author": "Robert C. Martin",
+    "coverURL": "https://m.media-amazon.com/images/I/81jRujEs6uL._AC_UL480_FMwebp_QL65_.jpg",
+    "print": "Paperback",
+    "title": "Clean Code: A Handbook of Agile Software Craftsmanship"
+  },
+  "11": {
+    "author": "Addison-Wesley",
+    "coverURL": "https://m.media-amazon.com/images/I/41aSIiETPPL._AC_UL480_FMwebp_QL65_.jpg",
+    "print": "Paperback",
+    "title": "Go Programming Language"
+  },
+  "12": {
+    "author": "Martin Fitzpatrick",
+    "coverURL": "https://m.media-amazon.com/images/I/61+pc-nQyqL._AC_UL480_FMwebp_QL65_.jpg",
+    "print": "Paperback",
+    "title": "Create GUI Applications with Python & Qt5"
+  },
+  "13": {
+    "author": "Evan Skolnick",
+    "coverURL": "https://m.media-amazon.com/images/I/91kco9JvFNL._AC_UL480_FMwebp_QL65_.jpg",
+    "print": "Paperback",
+    "title": "Video Game Storytelling: Narrative Techniques"
+  }
+}
