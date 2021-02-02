@@ -4,7 +4,7 @@ const itemsPerRow = 2;
 const rowsPerPage = 2;
 
 // Fetch Books
-fetch("http://localhost:5500/public/Books.json", {
+fetch("http://localhost:5500/BooksAssignment/public/Books.json", {
   headers: {
     "Content-Type": "application/json",
     Accept: "application/json",

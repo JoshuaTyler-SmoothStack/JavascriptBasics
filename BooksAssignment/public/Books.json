@@ -76,5 +76,59 @@
     "coverURL": "https://m.media-amazon.com/images/I/91kco9JvFNL._AC_UL480_FMwebp_QL65_.jpg",
     "print": "Paperback",
     "title": "Video Game Storytelling: Narrative Techniques"
+  },
+  "14": {
+    "author": "Angie Thomas",
+    "coverURL": "https://images-na.ssl-images-amazon.com/images/I/41GGxoR3OSL._AC_SX368_.jpg",
+    "print": "Hardcover",
+    "title": "Concrete RoseConcrete RoseConcrete Rose"
+  },
+  "15": {
+    "author": "Larry Loftis",
+    "coverURL": "https://images-na.ssl-images-amazon.com/images/I/51scp5UvUmL._AC_SX368_.jpg",
+    "print": "Hardcover",
+    "title": "The Princess Spy"
+  },
+  "16": {
+    "author": "National Geographic Maps",
+    "coverURL": "https://images-na.ssl-images-amazon.com/images/I/61JYN+sVvXL._AC_SX368_.jpg",
+    "print": "Spiral-bound",
+    "title": "National Geographic Road Atlas 2021"
+  },
+  "17": {
+    "author": "Dr. Suess",
+    "coverURL": "https://images-na.ssl-images-amazon.com/images/I/51PStoZII1L._AC_SX368_.jpg",
+    "print": "Paperback",
+    "title": "Oh Say Can You Say Di-no-saur?"
+  },
+  "18": {
+    "author": "Charles Dickens",
+    "coverURL": "https://m.media-amazon.com/images/I/91ptoYiDzeL._AC_UL480_FMwebp_QL65_.jpg",
+    "print": "Paperback",
+    "title": "A Tale of Two Cities"
+  },
+  "19": {
+    "author": "Mary Shelley",
+    "coverURL": "https://m.media-amazon.com/images/I/91Y7QjuJSIL._AC_UY327_FMwebp_QL65_.jpg",
+    "print": "Paperback",
+    "title": "Frankenstein"
+  },
+  "20": {
+    "author": "Ron Chernow",
+    "coverURL": "https://m.media-amazon.com/images/I/91H91d99ihL._AC_UY327_FMwebp_QL65_.jpg",
+    "print": "Paperback",
+    "title": "Washington: A Life"
+  },
+  "21": {
+    "author": "Homer",
+    "coverURL": "https://m.media-amazon.com/images/I/A1dCc7z7I-L._AC_UY327_FMwebp_QL65_.jpg",
+    "print": "Paperback",
+    "title": "The Odeyssey"
+  },
+  "22": {
+    "author": "Gerald Morris",
+    "coverURL": "https://m.media-amazon.com/images/I/81gzc5mVpBL._AC_UY327_FMwebp_QL65_.jpg",
+    "print": "Hardcover",
+    "title": "The Squire's Tale"
   }
 }
