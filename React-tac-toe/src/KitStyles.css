@@ -1,0 +1,589 @@
+#root {
+  position: absolute;
+  overflow: hidden;
+
+  --vBlue: #0660a8;
+  --vGreen: #64aa46;
+  --vGrey: #2e2a2b;
+  --vGreyLight: #d3d3d3;
+  --vGreyMedium: #969495;
+  --vPurple: #724c9f;
+  --vRed: #c12132;
+  --vYellow: #ffd500;
+  --vYellowBrown: #cc982e;
+
+  --vBoxShadow: rgba(0, 0, 0, 0.4);
+  --vDropShadow: rgba(0, 0, 0, 0.7);
+}
+
+.no-drag,
+.no-user {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+
+.no-select,
+.no-user {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+/*====================
+Backgrounds
+====================*/
+.bg-smoke {
+  background-color: whitesmoke;
+}
+
+.bg-blue {
+  background-color: var(--vBlue);
+}
+
+
+/*====================
+Borders
+====================*/
+.border-radius-xxsm {
+  border-radius: 0.25vh;
+}
+
+.border-radius-xsm {
+  border-radius: 0.5vh;
+}
+
+.border-radius-sm {
+  border-radius: 1vh;
+}
+
+.border-radius-md {
+  border-radius: 2.5vh;
+}
+
+.border-radius-lg {
+  border-radius: 5vh;
+}
+
+.border-shadow {
+  box-shadow: 0 0 6px var(--vBoxShadow);
+}
+
+.border-shadow-sharp {
+  box-shadow: 0 0 2px black;
+}
+
+.border-shadow-sm {
+  box-shadow: 0 0 2px var(--vBoxShadow);
+}
+
+.border-shadow-hover:hover,
+.border-shadow-hover:active {
+  box-shadow: 0 0 6px var(--vDropShadow);
+}
+
+.border-shadow-hover:focus {
+  outline: none;
+  user-select: none;
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+}
+
+/*====================
+Buttons
+====================*/
+.btn {
+  border: none;
+  border-radius: 0.5vh;
+  outline: none;
+  vertical-align: middle;
+}
+
+.btn:hover {
+  box-shadow: 0 2px 6px var(--vBoxShadow);
+}
+
+.btn:active {
+  transition: 0ms;
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+}
+
+.btn:focus {
+  outline: none;
+}
+
+/*====================
+Flex
+====================*/
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-start {
+  justify-content: start;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-end {
+  justify-content: end;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+
+/*====================
+Gradients
+====================*/
+.gradient-blue {
+  background: linear-gradient(90deg, var(--vBlue), LightGrey);
+  background-size: 1800% 600%;
+}
+
+.gradient-lightgrey {
+  background: linear-gradient(45deg, #2e2a2b, LightGrey, #2e2a2b);
+  background-size: 1000% 600%;
+}
+
+/*====================
+Icons
+====================*/
+.icon,
+.icon-light,
+.icon-bold {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+
+.icon-bold {
+  filter: drop-shadow(0 0 4px var(--vDropShadow));
+  -webkit-filter: drop-shadow(0 0 4px var(--vDropShadow));
+}
+
+.icon:hover,
+.icon:active {
+  filter: drop-shadow(0 0 4px var(--vDropShadow));
+  -webkit-filter: drop-shadow(0 0 4px var(--vDropShadow));
+}
+
+.icon-light:hover,
+.icon-light:active {
+  filter: drop-shadow(0 0 5px white);
+  -webkit-filter: drop-shadow(0 0 5px white);
+}
+
+.icon-bold:hover,
+.icon-bold:active {
+  filter: drop-shadow(0 0 4px var(--vBoxShadow));
+  -webkit-filter: drop-shadow(0 0 4px var(--vBoxShadow));
+}
+
+.icon:active,
+.icon-light:active,
+.icon-bold:active {
+  transition: 0ms;
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+}
+
+/*====================
+Margin & Padding
+====================*/
+.m-auto {
+  margin: auto !important;
+}
+
+.mt-auto,
+.my-auto {
+  margin-top: auto !important;
+}
+
+.mr-auto,
+.mx-auto {
+  margin-right: auto !important;
+}
+
+.mb-auto,
+.my-auto {
+  margin-bottom: auto !important;
+}
+
+.ml-auto,
+.mx-auto {
+  margin-left: auto !important;
+}
+
+.m-0 {
+  margin: 0 !important;
+}
+
+.mt-0,
+.my-0 {
+  margin-top: 0 !important;
+}
+
+.mr-0,
+.mx-0 {
+  margin-right: 0 !important;
+}
+
+.mb-0,
+.my-0 {
+  margin-bottom: 0 !important;
+}
+
+.ml-0,
+.mx-0 {
+  margin-left: 0 !important;
+}
+
+.m-1 {
+  margin: 0.25rem !important;
+}
+
+.mt-1,
+.my-1 {
+  margin-top: 0.25rem !important;
+}
+
+.mr-1,
+.mx-1 {
+  margin-right: 0.25rem !important;
+}
+
+.mb-1,
+.my-1 {
+  margin-bottom: 0.25rem !important;
+}
+
+.ml-1,
+.mx-1 {
+  margin-left: 0.25rem !important;
+}
+
+.m-2 {
+  margin: 0.5rem !important;
+}
+
+.mt-2,
+.my-2 {
+  margin-top: 0.5rem !important;
+}
+
+.mr-2,
+.mx-2 {
+  margin-right: 0.5rem !important;
+}
+
+.mb-2,
+.my-2 {
+  margin-bottom: 0.5rem !important;
+}
+
+.ml-2,
+.mx-2 {
+  margin-left: 0.5rem !important;
+}
+
+.m-3 {
+  margin: 1rem !important;
+}
+
+.mt-3,
+.my-3 {
+  margin-top: 1rem !important;
+}
+
+.mr-3,
+.mx-3 {
+  margin-right: 1rem !important;
+}
+
+.mb-3,
+.my-3 {
+  margin-bottom: 1rem !important;
+}
+
+.ml-3,
+.mx-3 {
+  margin-left: 1rem !important;
+}
+
+.m-4 {
+  margin: 1.5rem !important;
+}
+
+.mt-4,
+.my-4 {
+  margin-top: 1.5rem !important;
+}
+
+.mr-4,
+.mx-4 {
+  margin-right: 1.5rem !important;
+}
+
+.mb-4,
+.my-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.ml-4,
+.mx-4 {
+  margin-left: 1.5rem !important;
+}
+
+.m-5 {
+  margin: 3rem !important;
+}
+
+.mt-5,
+.my-5 {
+  margin-top: 3rem !important;
+}
+
+.mr-5,
+.mx-5 {
+  margin-right: 3rem !important;
+}
+
+.mb-5,
+.my-5 {
+  margin-bottom: 3rem !important;
+}
+
+.ml-5,
+.mx-5 {
+  margin-left: 3rem !important;
+}
+
+.p-0 {
+  padding: 0 !important;
+}
+
+.pt-0,
+.py-0 {
+  padding-top: 0 !important;
+}
+
+.pr-0,
+.px-0 {
+  padding-right: 0 !important;
+}
+
+.pb-0,
+.py-0 {
+  padding-bottom: 0 !important;
+}
+
+.pl-0,
+.px-0 {
+  padding-left: 0 !important;
+}
+
+.p-1 {
+  padding: 0.25rem !important;
+}
+
+.pt-1,
+.py-1 {
+  padding-top: 0.25rem !important;
+}
+
+.pr-1,
+.px-1 {
+  padding-right: 0.25rem !important;
+}
+
+.pb-1,
+.py-1 {
+  padding-bottom: 0.25rem !important;
+}
+
+.pl-1,
+.px-1 {
+  padding-left: 0.25rem !important;
+}
+
+.p-2 {
+  padding: 0.5rem !important;
+}
+
+.pt-2,
+.py-2 {
+  padding-top: 0.5rem !important;
+}
+
+.pr-2,
+.px-2 {
+  padding-right: 0.5rem !important;
+}
+
+.pb-2,
+.py-2 {
+  padding-bottom: 0.5rem !important;
+}
+
+.pl-2,
+.px-2 {
+  padding-left: 0.5rem !important;
+}
+
+.p-3 {
+  padding: 1rem !important;
+}
+
+.pt-3,
+.py-3 {
+  padding-top: 1rem !important;
+}
+
+.pr-3,
+.px-3 {
+  padding-right: 1rem !important;
+}
+
+.pb-3,
+.py-3 {
+  padding-bottom: 1rem !important;
+}
+
+.pl-3,
+.px-3 {
+  padding-left: 1rem !important;
+}
+
+.p-4 {
+  padding: 1.5rem !important;
+}
+
+.pt-4,
+.py-4 {
+  padding-top: 1.5rem !important;
+}
+
+.pr-4,
+.px-4 {
+  padding-right: 1.5rem !important;
+}
+
+.pb-4,
+.py-4 {
+  padding-bottom: 1.5rem !important;
+}
+
+.pl-4,
+.px-4 {
+  padding-left: 1.5rem !important;
+}
+
+.p-5 {
+  padding: 3rem !important;
+}
+
+.pt-5,
+.py-5 {
+  padding-top: 3rem !important;
+}
+
+.pr-5,
+.px-5 {
+  padding-right: 3rem !important;
+}
+
+.pb-5,
+.py-5 {
+  padding-bottom: 3rem !important;
+}
+
+.pl-5,
+.px-5 {
+  padding-left: 3rem !important;
+}
+
+/*====================
+Text Styling
+====================*/
+.serif {
+  font-family: "Times New Roman", Times, serif;
+}
+.sansserif {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.monospace {
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+.color-blue {
+  color: var(--vBlue);
+}
+.color-cream {
+  color: #fcedd8;
+}
+.color-grey {
+  color: var(--vGrey);
+}
+.color-green {
+  color: var(--vGreen);
+}
+.color-lightgrey {
+  color: var(--vGreyLight);
+}
+.color-purple {
+  color: var(--vPurple);
+}
+.color-red {
+  color: var(--vRed);
+}
+.color-yellow {
+  color: var(--vYellowBrown);
+}
+
+.text-align-center {
+  text-align: center;
+}
+.text-shadow {
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+.bevel-blue {
+  background: -webkit-linear-gradient(90deg, var(--vBlue), var(--vBlue), white);
+  background-clip: text;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
