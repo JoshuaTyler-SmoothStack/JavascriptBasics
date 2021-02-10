@@ -2,4 +2,4 @@
 Follow the React Website Guide "Tutorial: Intro to React – React".
 (https://reactjs.org/tutorial/tutorial.html)
 
-![Screenshot](../<main>/ReactTacToe.png)
+![Screenshot](https://github.com/JoshuaTyler-SmoothStack/JavascriptBasics/blob/main/ReactTacToe.png?raw=true)
